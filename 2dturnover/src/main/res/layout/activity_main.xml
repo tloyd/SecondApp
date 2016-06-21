@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cc.springwind.a2dturnover.MainActivity">
+
+    <ImageView
+        android:id="@+id/girl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/girl1" />
+
+    <ImageView
+        android:id="@+id/girl2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/girl2" />
+</FrameLayout>
